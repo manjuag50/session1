@@ -22,7 +22,7 @@ public class learnLocators {
 		driver = new ChromeDriver();//it requires Run Configeration(line 16)
 		
 		driver.manage().deleteAllCookies();// FIRST: delete the cookies
-		driver.manage().window().maximize();   // MAximize teh window
+		
 		driver.get("https://objectspy.space/");// because we work on this url
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// implicit wait to slow our execution down everytime when asking to find an element.
 		}
